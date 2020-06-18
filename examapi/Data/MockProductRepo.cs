@@ -12,6 +12,7 @@ namespace examapi.Data
         {
             var products = new List<Product>
             {
+                //Creating test data
                 new Product { ID = 1, Name = "Æg", Description = "Friske æg der kommer fra en høne", Unit = "2", Amount = "10", Price = 20}
             };
 
