@@ -11,7 +11,7 @@ namespace examapi.Controllers
     public class ProductControllerTest : ControllerBase
     {
         [HttpGet]
-        public ActionResult <IEnumerable<Product>> GetAllProducts()
+        public ActionResult <IEnumerable<Product>> GetAllProducts() 
         {
 
         }
